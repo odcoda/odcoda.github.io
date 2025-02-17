@@ -1,104 +1,29 @@
-/* Custom Overrides for Hacker theme */
+/* Custom Overrides for the Hacker Theme */
 
-/* Base Styles */
-body {
-  background-color: #fafafa; /* light background */
-  color: #222;               /* dark text */
-  font-family: 'Merriweather', serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+/* Glowing blue highlight for links */
+a {
+  color: #00ccff; /* glowing blue */
+  text-shadow: 0 0 3px #00ccff;
+}
+a:hover {
+  color: #00e6ff;
+  text-shadow: 0 0 6px #00e6ff;
 }
 
-/* Container for pages */
-.container {
-  display: flex;
-  min-height: 100vh;
-}
-
-/* Sidebar Navigation */
-.sidebar {
-  background-color: #fff;
-  border-right: 1px solid #ddd;
-  padding: 1.5rem;
-  min-width: 200px;
-}
-
-.sidebar h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.sidebar ul li {
-  margin-bottom: 0.8rem;
-}
-
-.sidebar ul li a {
-  text-decoration: none;
-  color: #222;
-  transition: color 0.3s;
-}
-
-.sidebar ul li a:hover {
-  color: #007acc; /* sparing accent color */
-}
-
-/* Main Content Area */
-.content {
-  padding: 2rem;
-  flex: 1;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Story Page Specifics */
-.story-page {
-  flex-direction: column;
-  padding: 2rem;
-}
-
-.story-header {
-  padding: 2rem;
+/* Sidebar header for logo and portrait */
+.sidebar-header {
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+}
+.sidebar-header .logo {
+  max-width: 80%;
   margin-bottom: 1rem;
 }
-
-.story-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #333;
+.sidebar-header .portrait {
+  max-width: 60%;
+  border-radius: 50%;
 }
 
-.story-date {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.story-content {
-  padding: 0 2rem;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  
-  .sidebar {
-    border-right: none;
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-  }
-  
-  .content {
-    padding: 1rem;
-    max-width: 100%;
-  }
-}
+/* You can add additional custom tweaks here, while the overall dark background 
+   and light text are provided by the Hacker theme by default. */
