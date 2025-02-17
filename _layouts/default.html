@@ -7,19 +7,22 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <!-- Load your custom CSS AFTER the theme's default styles -->
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
       <aside id="sidebar">
-        <!-- Sidebar Header for Logo & Portrait -->
+        <!-- Sidebar Header for Logo (only on non-story pages) -->
         <div class="sidebar-header">
-          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo" class="logo">
-          <img src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="Portrait" class="portrait">
+          {% unless layout.name == 'story' %}
+            <img src="{{ '/assets/images/logo.jpeg' | relative_url }}" alt="Logo" class="logo">
+          {% endunless %}
         </div>
-        <!-- Navigation (left sidebar remains intact) -->
+        <!-- Navigation -->
         <nav>
           <ul>
-            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="{{ "/" | relative_url }}">Coda</a></li>
+            <li><a href="{{ "/story.html" | relative_url }}">Example Story</a></li>
             {% for page in site.pages %}
               {% if page.nav == true %}
                 <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
@@ -30,6 +33,9 @@
       </aside>
       <main id="main">
         {{ content }}
+      <footer class="story-signature">
+        <p>— {{ site.author }}</p>
+      </footer>
       </main>
     </div>
   </body>

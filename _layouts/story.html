@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container story-page">
       <header class="story-header">
+        <img src="{{ '/assets/images/logo.jpeg' | relative_url }}" alt="Logo" class="story-logo">
         <h1>{{ page.title }}</h1>
         {% if page.date %}
         <p class="story-date">{{ page.date | date: "%B %-d, %Y" }}</p>
@@ -17,6 +19,9 @@
       <article class="story-content">
         {{ content }}
       </article>
+      <footer class="story-signature">
+        <p>— {{ site.author }}<br>{{ page.date | date: "%B %-d, %Y" }}</p>
+      </footer>
     </div>
   </body>
 </html>

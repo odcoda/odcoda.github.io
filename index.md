@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome"
+title: ""
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet, turpis vitae congue tristique, quam eros consequat nibh, vel tincidunt justo leo eget erat. Proin convallis, velit non interdum maximus, orci erat efficitur nisl, at pellentesque odio odio in arcu.
