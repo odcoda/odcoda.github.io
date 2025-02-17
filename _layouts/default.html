@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+    <!-- You can include additional head elements or override Hacker theme CSS here -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Navigation Sidebar (typically used on the home page) -->
+      <nav class="sidebar">
+        <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/story.html' | relative_url }}">Story Example</a></li>
+          <!-- Add more links as needed -->
+        </ul>
+      </nav>
+      <!-- Main Content Area -->
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
