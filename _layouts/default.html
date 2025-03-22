@@ -22,11 +22,9 @@
         <nav>
           <ul>
             <li><a href="{{ "/" | relative_url }}">Coda</a></li>
-            <li><a href="{{ "/story.html" | relative_url }}">Example Story</a></li>
+            <!-- <li><a href="{{ "/story.html" | relative_url }}">Example Story</a></li> -->
             {% for page in site.pages %}
-              {% if page.nav == true %}
                 <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-              {% endif %}
             {% endfor %}
           </ul>
         </nav>
