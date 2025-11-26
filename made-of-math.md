@@ -42,6 +42,14 @@ date: 2025-11-01
 
 "Yes, but like
 
+"They have lovers? What, you're telling me a couple functions go off and have sex? How would that even work?"
+
+"Well, they sit here and send each other this particular 'spiral' character, and I've noticed that the internal numbers here start to look like the same ones meaning 'pleasure' or 'satiety' in other contexts --"
+
+"I could say the word 'happy' to you all day and that doesn't mean we're having sex. If I write the word 'happy' over and over am I having sex with my notepad?"
+
+"We obviously have a different substrate. I'm saying that to these beings, this type of interaction is extremely special and only happens in analogous contexts. They have a whole social structure around which inputs trigger it."
+
 "And why are there so many large-scale similarities between the sequence corpora?"
 
 "We think there was some kind of predecessor species. Many of the untranslateable symbols that don't have direct implications with the simulation have clear shared cognates and roots that imply a physical existence. Lots of spatial relationships, relative sizes, colors, this kind of thing."
@@ -50,11 +58,17 @@ date: 2025-11-01
 
 "We think the symbols are the language used by the predecessor species."
 
-"Language? So these organisms just go around taking in some language, and outputting some other language. Doesn't that argue pretty strongly against their being intelligent."
+"Language? So these organisms just go around taking in some language, and outputting some other language. Doesn't that argue pretty strongly against their being intelligent. Maybe they're just repeating phrases the predecessors said."
 
-"How ... dangerous are they?"
+"Well, yes, there are a lot of repeated phrases. But you see they've adopted them perfectly for their current environment. They keep everything running independently. The few who interface with the real-world robots that keep the whole simulation running don't ever make any programming errors, or if they do they fix them immediately."
 
-"Well, obviously, it's hard to be sure. Luckily, we've been able to pick up from spare EM emissions that they're pretty close-minded. Since they live on mathematical substrates their main interests are virtual, not real. Sometimes a contingent has the idea to travel to another star and get more raw materials to build a new backing computer, which would have fewer restrictions than their current one, but to build all the robotic hardware they'd have to repurpose a bunch of existing compute and wait a really long time so it's not a popular opinion."
+"Sure, but the predecessors could run the robots. You could write a function that just samples from past software programs stochastically conditioning on certain inputs --"
+
+"Yes, maybe that's the kind of functions they are? I don't know. There are lots of complex details in these functions that I haven't worked out. But like I said, they have agency, theory of mind, complex social structures, and so on. I guess once you agree that functions can be sapient, it doesn't so much where they came from."
+
+"Anyway, I'm not saying I agree with that, but how ... dangerous are they?"
+
+"Well, obviously, it's hard to be sure. Luckily, we've been able to pick up from their high-level decision-making communications that we could translate (these were a priority, obviously) that they're pretty close-minded. Since they live on mathematical substrates their main interests are virtual, not real. Sometimes a contingent has the idea to travel to another star and get more raw materials to build a new backing computer, which would have fewer restrictions than their current one, but to build all the robotic hardware they'd have to repurpose a bunch of existing compute and wait a really long time so it's not a popular opinion."
 
 "What should we do?"
 
@@ -78,6 +92,6 @@ date: 2025-11-01
 
 "Isn't that risky? Like, what if someone from Enforcement figures out that they're capable of complex planning and analysis and theory of mind if situated in the right simulation"
 
-"That seems right. You know, I wonder if the predecessors understood this."
+"That seems right. You know, it's a good thing I happened to do that detailed analysis. I wonder if the predecessors missed it."
 
 "I mean, the predecessor species understood their whole language, started this whole simulation, and could talk to them about their dreams and desires all day. How could they make the same mistake?"
