@@ -15,6 +15,11 @@
         {% if page.date %}
         <p class="story-date">{{ page.date | date: "%B %-d, %Y" }}</p>
         {% endif %}
+        {% if page.tags %}
+        <p class="story-tags">
+          {% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}
+        </p>
+        {% endif %}
       </header>
       <article class="story-content">
         {{ content }}

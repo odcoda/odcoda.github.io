@@ -5,3 +5,7 @@ theme: null
 sass:
   style: compressed
   sass_dir: _sass
+collections:
+  journal:
+    output: true
+    permalink: /journal/:name/
