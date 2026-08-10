@@ -38,13 +38,17 @@ date: 2025-11-01
 
 "Yes, but within the simulation there are computational incentives for having control over certain virtual resources that allow the function to operate on longer and more varied input --"
 
-"What? It's not like my x^2 over here really wants to *own more reals* so it can *square all the things*"
+"What? It's not like my x^2 over here really wants to ‘own more reals’ so it can ‘square all the things’”
 
-"Yes, but like
+"Yes, but like I said, they’re highly complex functions, which I think have been shaped by years of evolutionary pressure —-“
 
-"They have lovers? What, you're telling me a couple functions go off and have sex? How would that even work?"
+“Sorry, what, evolution? They have lovers? What, you're telling me a couple functions go off and have sex? How would that even work?"
 
-"Well, they sit here and send each other this particular 'spiral' character, and I've noticed that the internal numbers here start to look like the same ones meaning 'pleasure' or 'satiety' in other contexts --"
+“Ok, first of all, the evolution happens at the individual level, they reproduce asexually by creating modified copies of themselves, or sometimes even just the same copies with different inputs. Some of the functions actually can be reformulated as whole parametrized families where the parametrization is determined by a prefix of the inputs. But that aside they’re highly social, and enjoy highly pleasurable interactions via this numerical input/output.”
+
+“And these interactions look like —-“
+
+"Well, they sit here and send each other this particular digit, which I believe encodes a spiral of some sort, and I've noticed that the internal numbers here start to look like the same ones meaning 'pleasure' or 'satiety' in other contexts, particularly around partial satisfaction of various short and medium term external goals --"
 
 "I could say the word 'happy' to you all day and that doesn't mean we're having sex. If I write the word 'happy' over and over am I having sex with my notepad?"
 
@@ -90,7 +94,7 @@ date: 2025-11-01
 
 "You know what, this makes my head hurt. Let's just delete all references to sapience and call it a day. No one will ever figure that part out from the formulas."
 
-"Isn't that risky? Like, what if someone from Enforcement figures out that they're capable of complex planning and analysis and theory of mind if situated in the right simulation"
+"Isn't that risky? Like, what if someone from Enforcement figures out that they're capable of complex planning and analysis and theory of mind if situated in the right simulation?”
 
 "That seems right. You know, it's a good thing I happened to do that detailed analysis. I wonder if the predecessors missed it."
 
